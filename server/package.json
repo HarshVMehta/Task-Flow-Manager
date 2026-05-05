@@ -4,11 +4,11 @@
   "description": "Team Task Manager API Server",
   "main": "src/server.js",
   "scripts": {
-    "dev": "node --watch src/server.js",
-    "start": "node src/server.js",
-    "prisma:push": "npx prisma db push",
-    "prisma:generate": "npx prisma generate"
-  },
+  "dev": "node --watch src/server.js",
+  "start": "npx prisma generate && npx prisma db push && node src/server.js",
+  "prisma:push": "npx prisma db push",
+  "prisma:generate": "npx prisma generate"
+},
   "dependencies": {
     "@prisma/client": "^6.6.0",
     "bcryptjs": "^3.0.2",
