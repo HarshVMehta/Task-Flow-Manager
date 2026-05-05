@@ -3,7 +3,7 @@
 A multi-tenant team task management system with role-based access control (RBAC). Admins create projects, add members, and assign tasks. Members focus on their assigned tasks and update status only.
 
 ## Features
-- Admin onboarding (first signup becomes Admin, public signup disabled after)
+- Admin onboarding (first signup becomes Admin)
 - Member provisioning by Admin (no public member signup)
 - Projects with members and tasks
 - Task status, priority, and due dates
